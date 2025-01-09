@@ -6,9 +6,9 @@
     <title>Express Server with Nav Bar</title>
     <style>
       body {
-        color: aliceblue;
+        color: whitesmoke;
         font-family: Arial, sans-serif;
-        background-color: aqua;
+        background-color:rgb(6, 6, 6);
       }
       nav {
         background-color: #333;
@@ -27,15 +27,35 @@
         background-color: #ddd;
         color: rgb(0, 0, 0);
       }
+      .button-class {
+			background-color: #4CAF50;
+			/* Green */
+			border: none;
+			color: white;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			border-radius: 4px;
+		}
+    .heading{
+     
+    }
     </style>
   </head>
   <body>
+    <div class="heading">
     <nav>
-      <a href="/">Home</a>
-      <a href="/about">About</a>
+      <a href="/" class="button-class">Home</a>
+     
+      <a href="/about" class="button-class">About</a>
     </nav>
     <div>
-      <h1>Welcome to the Home Page!</h1>
+      <h1>Welcome to Home Page!</h1>
     </div>
+  </div>
   </body>
 </html>
